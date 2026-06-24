@@ -4173,6 +4173,31 @@ body.is-mobile .banner > article {
 }
 
 /* Homepage focus-area section */
+.home-focus-heading {
+	font-size: 1.5em;
+	line-height: 1.5;
+	margin: 0 auto 1.8em;
+	color: #1e293b;
+	text-align: center;
+	font-weight: 600;
+	font-style: italic;
+	letter-spacing: -0.01em;
+	white-space: nowrap;
+}
+
+@media screen and (max-width: 900px) {
+	.home-focus-heading {
+		font-size: 1.25em;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.home-focus-heading {
+		white-space: normal;
+		font-size: 1.15em;
+	}
+}
+
 .home-focus-grid {
 	display: grid;
 	grid-template-columns: repeat(2, minmax(0, 1fr));
