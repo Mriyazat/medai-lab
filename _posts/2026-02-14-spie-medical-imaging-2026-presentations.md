@@ -91,7 +91,7 @@ date: 2026-02-14
 
     <h4 style="font-size: 1.1em; font-weight: bold; font-style: italic; color: #111827; margin-bottom: 1em; text-align: left;">Zinah's Poster for SPIE Medical Imaging 2026</h4>
     <div style="text-align: center;">
-      <img src="{{site.baseurl}}/images/site/spie_2026_zinah_poster.png" alt="Zinah Ghulam – SPIE Medical Imaging 2026 Poster" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <img src="{{site.baseurl}}/images/news/spie_2026_zinah_poster.png" alt="Zinah Ghulam – SPIE Medical Imaging 2026 Poster" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
     </div>
   </div>
 </div>
