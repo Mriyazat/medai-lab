@@ -8,6 +8,11 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
+### Local environment (not part of the site) ###
+.venv/
+vendor/
+.bundle/
+
 ### macOS ###
 # General
 .DS_Store

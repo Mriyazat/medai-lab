@@ -6,6 +6,6 @@ The AI-Driven Medical Imaging & Diagnostics Lab focuses on developing cutting-ed
 
 ## Credits
 
-This website is built using the **Hielo template** by TEMPLATED (released under Creative Commons Attribution 3.0 license) and includes custom modifications. For full attribution details, see [CREDITS.md](CREDITS.md) and [LICENSE](LICENSE).
+This website is built using the **Hielo template** by TEMPLATED (released under Creative Commons Attribution 3.0 license) and includes custom modifications. For full attribution details, see [CREDITS.md](docs/CREDITS.md) and [LICENSE](LICENSE).
 
 © 2025 AI-Driven Medical Imaging & Diagnostics Lab at University of Guelph. All rights reserved.
