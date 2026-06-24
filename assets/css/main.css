@@ -4171,3 +4171,15 @@ body.is-mobile .banner > article {
 	height: 100%;
 	border: 0;
 }
+
+/* Homepage focus-area cards */
+.home-focus-card {
+	transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+	will-change: transform;
+}
+
+.home-focus-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 14px 30px rgba(15, 23, 42, 0.10);
+	border-color: #cbd5e1;
+}
