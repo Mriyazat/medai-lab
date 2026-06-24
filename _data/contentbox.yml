@@ -11,42 +11,30 @@
   </p>
 
   <div style="margin-bottom: 3em;">
-    <p style="font-size: 1.45em; line-height: 1.6; margin: 0 auto 1.8em; color: #0f172a; text-align: center; max-width: 760px; font-weight: 800; letter-spacing: -0.015em;">
-      We develop AI solutions for healthcare to enable early diagnosis.
+    <p style="font-size: 1.5em; line-height: 1.5; margin: 0 auto 1.8em; color: #1e293b; text-align: center; max-width: 720px; font-weight: 600; font-style: italic; letter-spacing: -0.01em;">
+      We develop AI solutions for healthcare to enable <span style="background: linear-gradient(120deg, rgba(37,99,235,0.16), rgba(124,58,237,0.16)); padding: 0 0.2em; border-radius: 4px;">early diagnosis</span>.
     </p>
 
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.25em; max-width: 880px; margin: 0 auto;">
+    <div class="home-focus-grid">
 
-      <div class="home-focus-card" style="padding: 1.9em; background: #ffffff; border-radius: 16px; border: 1px solid #e9eef5; box-shadow: 0 1px 2px rgba(15,23,42,0.04);">
-        <div style="display: inline-flex; align-items: center; justify-content: center; width: 46px; height: 46px; border-radius: 13px; background: #eff6ff; color: #2563eb; margin-bottom: 1.1em;">
-          <svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-        </div>
-        <h3 style="color: #0f172a; font-size: 1.12em; margin: 0 0 0.5em 0; font-weight: 700;">Predictive Health</h3>
-        <p style="color: #64748b; line-height: 1.65; margin: 0; font-size: 0.94em;">Applying deep learning for early disease detection and outcome prediction.</p>
+      <div class="home-focus-item" style="--accent: #3b82f6; --accent2: #2563eb;">
+        <h3>Predictive Health</h3>
+        <p>Applying deep learning for early disease detection and outcome prediction.</p>
       </div>
 
-      <div class="home-focus-card" style="padding: 1.9em; background: #ffffff; border-radius: 16px; border: 1px solid #e9eef5; box-shadow: 0 1px 2px rgba(15,23,42,0.04);">
-        <div style="display: inline-flex; align-items: center; justify-content: center; width: 46px; height: 46px; border-radius: 13px; background: #f5f3ff; color: #7c3aed; margin-bottom: 1.1em;">
-          <svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
-        </div>
-        <h3 style="color: #0f172a; font-size: 1.12em; margin: 0 0 0.5em 0; font-weight: 700;">Holistic Analysis</h3>
-        <p style="color: #64748b; line-height: 1.65; margin: 0; font-size: 0.94em;">Integrating multi-modal data to enable comprehensive clinical insights.</p>
+      <div class="home-focus-item" style="--accent: #a78bfa; --accent2: #7c3aed;">
+        <h3>Holistic Analysis</h3>
+        <p>Integrating multi-modal data to enable comprehensive clinical insights.</p>
       </div>
 
-      <div class="home-focus-card" style="padding: 1.9em; background: #ffffff; border-radius: 16px; border: 1px solid #e9eef5; box-shadow: 0 1px 2px rgba(15,23,42,0.04);">
-        <div style="display: inline-flex; align-items: center; justify-content: center; width: 46px; height: 46px; border-radius: 13px; background: #ecfdf5; color: #059669; margin-bottom: 1.1em;">
-          <svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
-        </div>
-        <h3 style="color: #0f172a; font-size: 1.12em; margin: 0 0 0.5em 0; font-weight: 700;">Trusted AI</h3>
-        <p style="color: #64748b; line-height: 1.65; margin: 0; font-size: 0.94em;">Advancing explainable and transparent models for clinical decision support.</p>
+      <div class="home-focus-item" style="--accent: #34d399; --accent2: #059669;">
+        <h3>Trusted AI</h3>
+        <p>Advancing explainable and transparent models for clinical decision support.</p>
       </div>
 
-      <div class="home-focus-card" style="padding: 1.9em; background: #ffffff; border-radius: 16px; border: 1px solid #e9eef5; box-shadow: 0 1px 2px rgba(15,23,42,0.04);">
-        <div style="display: inline-flex; align-items: center; justify-content: center; width: 46px; height: 46px; border-radius: 13px; background: #fff7ed; color: #ea580c; margin-bottom: 1.1em;">
-          <svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.27 1.27L3 12l5.83 1.93a2 2 0 0 1 1.27 1.27L12 21l1.93-5.83a2 2 0 0 1 1.27-1.27L21 12l-5.83-1.93a2 2 0 0 1-1.27-1.27Z"/><path d="M5 3v4"/><path d="M3 5h4"/></svg>
-        </div>
-        <h3 style="color: #0f172a; font-size: 1.12em; margin: 0 0 0.5em 0; font-weight: 700;">Generative AI</h3>
-        <p style="color: #64748b; line-height: 1.65; margin: 0; font-size: 0.94em;">Utilizing generative models for data synthesis, image enhancement, and disease simulation.</p>
+      <div class="home-focus-item" style="--accent: #fb923c; --accent2: #ea580c;">
+        <h3>Generative AI</h3>
+        <p>Utilizing generative models for data synthesis, image enhancement, and disease simulation.</p>
       </div>
     </div>
   </div>

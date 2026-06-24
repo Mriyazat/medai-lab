@@ -4172,14 +4172,53 @@ body.is-mobile .banner > article {
 	border: 0;
 }
 
-/* Homepage focus-area cards */
-.home-focus-card {
-	transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
-	will-change: transform;
+/* Homepage focus-area section */
+.home-focus-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 2.4em 3.2em;
+	max-width: 840px;
+	margin: 0 auto;
 }
 
-.home-focus-card:hover {
-	transform: translateY(-5px);
-	box-shadow: 0 14px 30px rgba(15, 23, 42, 0.10);
-	border-color: #cbd5e1;
+.home-focus-item {
+	text-align: left;
+}
+
+.home-focus-item h3 {
+	color: #0f172a;
+	font-size: 1.18em;
+	font-weight: 700;
+	font-style: italic;
+	margin: 0 0 0.7em 0;
+	padding-bottom: 0.55em;
+	position: relative;
+}
+
+.home-focus-item h3::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 44px;
+	height: 3px;
+	border-radius: 2px;
+	background: linear-gradient(90deg, var(--accent, #2563eb), var(--accent2, #2563eb));
+}
+
+.home-focus-item p {
+	color: #64748b;
+	line-height: 1.75;
+	margin: 0;
+	font-size: 0.97em;
+	font-style: italic;
+	text-align: left;
+}
+
+@media screen and (max-width: 640px) {
+	.home-focus-grid {
+		grid-template-columns: 1fr;
+		max-width: 440px;
+		gap: 2em;
+	}
 }
