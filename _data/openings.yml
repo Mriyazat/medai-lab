@@ -1,0 +1,35 @@
+# Content for the Openings page. Edit text here — no HTML/design needed.
+# (Basic <strong>/<a> tags are allowed inside the text.)
+
+intro:
+  - "We are actively seeking highly motivated <strong>Master's and PhD students</strong> to join our research team. Our lab focuses on developing AI models for medical image analysis, with applications in diagnosis and prognosis. If you have a strong background in biomedical engineering, computer engineering, or related fields and are passionate about AI in healthcare, we encourage you to apply."
+  - "We also welcome inquiries from motivated <strong><em>undergraduate students</em></strong> interested in working on a capstone project with our team."
+
+research_focus:
+  - "Development of AI models for automated medical image analysis."
+  - "Diagnosis and prognosis prediction using deep learning techniques."
+  - "Multi-modal data integration for improved healthcare outcomes."
+  - "Explainable AI and model interpretability in medical applications."
+
+qualifications:
+  - heading: "Master's Applicants:"
+    text: "Bachelor's degree in Biomedical Engineering, Computer Engineering, Electrical Engineering, Computer Science, or a related discipline."
+  - heading: "PhD Applicants:"
+    text: "Master's degree in a relevant field (exceptional Bachelor's students may also be considered for direct-entry PhD programs)."
+  - heading: "Required Skills:"
+    list:
+      - "Programming skills in Python and experience with AI/ML frameworks such as TensorFlow or PyTorch"
+      - "Knowledge of medical imaging techniques (e.g., MRI, CT, X-ray) is an asset but not required"
+      - "Ability to work independently and collaboratively in a multidisciplinary team"
+
+what_we_offer:
+  - "Competitive funding packages and research stipends."
+  - "State-of-the-art computational and medical imaging facilities."
+  - "Opportunities to publish in top-tier journals and conferences."
+  - "Dynamic research environment with healthcare and AI collaborations."
+  - "You are also highly encouraged to apply for <strong><a href=\"https://graduatestudies.uoguelph.ca/current/funding/scholarships/gov-fundedawards/cgrsd\" target=\"_blank\" style=\"color: #2563eb; font-weight: 600; text-decoration: none;\">NSERC Research Awards</a></strong>."
+  - "For top candidates, I am happy to nominate for the <strong><a href=\"https://graduatestudies.uoguelph.ca/current/funding/scholarships/gov-fundedawards/ogs\" target=\"_blank\" style=\"color: #2563eb; font-weight: 600; text-decoration: none;\">Ontario Graduate Scholarship (OGS)</a></strong>."
+
+how_to_apply:
+  text: "If you are interested in joining our lab, please email <strong><a href=\"mailto:eukwatta@uoguelph.ca\" style=\"color: #2563eb; font-weight: 600; text-decoration: none;\">Dr. Eran Ukwatta</a></strong> with your CV, transcripts, and a brief statement of research interests."
+  footer: "We look forward to hearing from you!"

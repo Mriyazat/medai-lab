@@ -6,15 +6,16 @@ heading: <strong><em>Join our research team to advance AI in healthcare.</em></s
 bgimage: /images/banners/page_header_banner.png
 ---
 
+<!-- Content lives in _data/openings.yml. This file is the page design/template. -->
+
 <div style="max-width: 1100px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8;">
 
 <div style="padding: 2em; background: white; border-radius: 8px; margin-bottom: 3em; box-shadow: 0 4px 12px rgba(0,0,0,0.06); border: 1px solid #e2e8f0;">
-  <p style="font-size: 1.15em; color: #334155; margin: 0 0 1em 0; font-style: italic; line-height: 1.8;">
-    We are actively seeking highly motivated <strong>Master's and PhD students</strong> to join our research team. Our lab focuses on developing AI models for medical image analysis, with applications in diagnosis and prognosis. If you have a strong background in biomedical engineering, computer engineering, or related fields and are passionate about AI in healthcare, we encourage you to apply.
+  {% for para in site.data.openings.intro %}
+  <p style="font-size: 1.15em; color: #334155; margin: 0{% unless forloop.last %} 0 1em 0{% endunless %}; font-style: italic; line-height: 1.8;">
+    {{ para }}
   </p>
-  <p style="font-size: 1.15em; color: #334155; margin: 0; font-style: italic; line-height: 1.8;">
-    We also welcome inquiries from motivated <strong><em>undergraduate students</em></strong> interested in working on a capstone project with our team.
-  </p>
+  {% endfor %}
 </div>
 
 <div style="margin-bottom: 3em;">
@@ -22,18 +23,11 @@ bgimage: /images/banners/page_header_banner.png
     Research Focus:
   </h3>
   <div style="display: flex; flex-direction: column; gap: 1.2em; margin-top: 1.5em;">
+    {% for item in site.data.openings.research_focus %}
     <div style="padding: 1.5em; background: white; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
-      <p style="margin: 0; color: #64748b; font-size: 1em; font-style: italic; font-weight: 700;">Development of AI models for automated medical image analysis.</p>
+      <p style="margin: 0; color: #64748b; font-size: 1em; font-style: italic; font-weight: 700;">{{ item }}</p>
     </div>
-    <div style="padding: 1.5em; background: white; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
-      <p style="margin: 0; color: #64748b; font-size: 1em; font-style: italic; font-weight: 700;">Diagnosis and prognosis prediction using deep learning techniques.</p>
-    </div>
-    <div style="padding: 1.5em; background: white; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
-      <p style="margin: 0; color: #64748b; font-size: 1em; font-style: italic; font-weight: 700;">Multi-modal data integration for improved healthcare outcomes.</p>
-    </div>
-    <div style="padding: 1.5em; background: white; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
-      <p style="margin: 0; color: #64748b; font-size: 1em; font-style: italic; font-weight: 700;">Explainable AI and model interpretability in medical applications.</p>
-    </div>
+    {% endfor %}
   </div>
 </div>
 
@@ -42,22 +36,20 @@ bgimage: /images/banners/page_header_banner.png
     Qualifications:
   </h3>
   <div style="margin-top: 1.5em;">
-    <div style="padding: 2em; background: white; border-radius: 8px; margin-bottom: 1.5em; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border: 1px solid #e2e8f0;">
-      <h4 style="color: #0f172a; margin-top: 0; margin-bottom: 1em; font-size: 1.2em; font-weight: 600; font-style: italic;">Master's Applicants:</h4>
-      <p style="margin: 0; color: #64748b; font-size: 1em; font-style: italic; font-weight: 700;">Bachelor's degree in Biomedical Engineering, Computer Engineering, Electrical Engineering, Computer Science, or a related discipline.</p>
-    </div>
-    <div style="padding: 2em; background: white; border-radius: 8px; margin-bottom: 1.5em; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border: 1px solid #e2e8f0;">
-      <h4 style="color: #0f172a; margin-top: 0; margin-bottom: 1em; font-size: 1.2em; font-weight: 600; font-style: italic;">PhD Applicants:</h4>
-      <p style="margin: 0; color: #64748b; font-size: 1em; font-style: italic; font-weight: 700;">Master's degree in a relevant field (exceptional Bachelor's students may also be considered for direct-entry PhD programs).</p>
-    </div>
-    <div style="padding: 2em; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border: 1px solid #e2e8f0;">
-      <h4 style="color: #0f172a; margin-top: 0; margin-bottom: 1em; font-size: 1.2em; font-weight: 600; font-style: italic;">Required Skills:</h4>
+    {% for q in site.data.openings.qualifications %}
+    <div style="padding: 2em; background: white; border-radius: 8px;{% unless forloop.last %} margin-bottom: 1.5em;{% endunless %} box-shadow: 0 2px 8px rgba(0,0,0,0.06); border: 1px solid #e2e8f0;">
+      <h4 style="color: #0f172a; margin-top: 0; margin-bottom: 1em; font-size: 1.2em; font-weight: 600; font-style: italic;">{{ q.heading }}</h4>
+      {% if q.list %}
       <ul style="margin: 0; padding-left: 1.5em; color: #64748b; font-size: 1em; font-style: italic; font-weight: 700;">
-        <li style="margin-bottom: 0.8em;">Programming skills in Python and experience with AI/ML frameworks such as TensorFlow or PyTorch</li>
-        <li style="margin-bottom: 0.8em;">Knowledge of medical imaging techniques (e.g., MRI, CT, X-ray) is an asset but not required</li>
-        <li style="margin-bottom: 0;">Ability to work independently and collaboratively in a multidisciplinary team</li>
+        {% for item in q.list %}
+        <li style="margin-bottom: {% if forloop.last %}0{% else %}0.8em{% endif %};">{{ item }}</li>
+        {% endfor %}
       </ul>
+      {% else %}
+      <p style="margin: 0; color: #64748b; font-size: 1em; font-style: italic; font-weight: 700;">{{ q.text }}</p>
+      {% endif %}
     </div>
+    {% endfor %}
   </div>
 </div>
 
@@ -67,12 +59,9 @@ bgimage: /images/banners/page_header_banner.png
   </h3>
   <div style="padding: 2em; background: white; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); border: 1px solid #e2e8f0;">
     <ul style="margin: 0; padding-left: 1.5em; color: #64748b; font-size: 1.05em; font-style: italic; font-weight: 700; line-height: 2;">
-      <li style="margin-bottom: 0.8em;">Competitive funding packages and research stipends.</li>
-      <li style="margin-bottom: 0.8em;">State-of-the-art computational and medical imaging facilities.</li>
-      <li style="margin-bottom: 0.8em;">Opportunities to publish in top-tier journals and conferences.</li>
-      <li style="margin-bottom: 0.8em;">Dynamic research environment with healthcare and AI collaborations.</li>
-      <li style="margin-bottom: 0.8em;">You are also highly encouraged to apply for <strong><a href="https://graduatestudies.uoguelph.ca/current/funding/scholarships/gov-fundedawards/cgrsd" target="_blank" style="color: #2563eb; font-weight: 600; text-decoration: none;">NSERC Research Awards</a></strong>.</li>
-      <li style="margin-bottom: 0;">For top candidates, I am happy to nominate for the <strong><a href="https://graduatestudies.uoguelph.ca/current/funding/scholarships/gov-fundedawards/ogs" target="_blank" style="color: #2563eb; font-weight: 600; text-decoration: none;">Ontario Graduate Scholarship (OGS)</a></strong>.</li>
+      {% for item in site.data.openings.what_we_offer %}
+      <li style="margin-bottom: {% if forloop.last %}0{% else %}0.8em{% endif %};">{{ item }}</li>
+      {% endfor %}
     </ul>
   </div>
 </div>
@@ -82,10 +71,10 @@ bgimage: /images/banners/page_header_banner.png
     How to Apply:
   </h3>
   <p style="font-size: 1.1em; color: #334155; margin-bottom: 1.5em; line-height: 1.8; font-style: italic;">
-    If you are interested in joining our lab, please email <strong><a href="mailto:eukwatta@uoguelph.ca" style="color: #2563eb; font-weight: 600; text-decoration: none;">Dr. Eran Ukwatta</a></strong> with your CV, transcripts, and a brief statement of research interests.
+    {{ site.data.openings.how_to_apply.text }}
   </p>
   <p style="font-size: 1.05em; color: #334155; font-style: italic; margin: 0;">
-    We look forward to hearing from you!
+    {{ site.data.openings.how_to_apply.footer }}
   </p>
 </div>
 

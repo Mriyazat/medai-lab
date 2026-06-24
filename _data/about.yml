@@ -1,0 +1,34 @@
+# Content for the About page. Edit text here — no HTML/design needed.
+# (Basic <strong>/<em>/<a> tags are allowed inside the text.)
+
+research_focus_paragraphs:
+  - "The AI-Driven Medical Imaging & Diagnostics Lab focuses on developing cutting-edge artificial intelligence and machine learning techniques to address critical challenges in medical imaging. Our research spans multiple domains within medical image analysis, with the ultimate goal of improving clinical decision-making and patient outcomes."
+  - "We work on a wide range of medical imaging problems, developing automated solutions that can assist healthcare professionals in diagnosis, prognosis, and treatment planning. Our interdisciplinary approach combines expertise in computer science, engineering, and medical imaging to create practical, clinically-relevant solutions."
+
+research_areas:
+  intro: "Our lab carries out research in the following key areas:"
+  items:
+    - "<strong>Machine Learning for Medical Imaging</strong> - Developing novel ML algorithms specifically designed for medical image analysis"
+    - "<strong>Deep Learning</strong> - Applying deep neural networks to complex medical imaging tasks"
+    - "<strong>Medical Image Analysis</strong> - Advanced techniques for processing and interpreting medical images"
+    - "<strong>Image Segmentation and Registration</strong> - Precise delineation and alignment of anatomical structures"
+    - "<strong>Myocardial Tissue Characterization</strong> - Specialized analysis of heart tissue using imaging"
+    - "<strong>Digital Histopathology Analysis</strong> - AI-powered analysis of microscopic tissue images"
+    - "<strong>Computational Modeling of the Heart</strong> - Mathematical models for cardiac function and disease"
+
+new_students:
+  intro: "We welcome students from diverse backgrounds including computer science, engineering, mathematics, and related fields. Our lab provides an interdisciplinary environment where students can develop expertise in both technical and medical domains."
+  subsections:
+    - heading: "Research Opportunities:"
+      items:
+        - "Graduate student positions (MSc/PhD)"
+        - "Undergraduate research projects"
+        - "Postdoctoral research positions"
+        - "Collaborative projects with clinical partners"
+    - heading: "What We Offer:"
+      items:
+        - "Hands-on experience with state-of-the-art medical imaging datasets"
+        - "Collaboration with clinical partners and healthcare professionals"
+        - "Access to high-performance computing resources"
+        - "Opportunities to publish in top-tier conferences and journals"
+        - "Professional development and career guidance"
